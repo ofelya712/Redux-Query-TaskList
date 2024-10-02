@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": "101",
+      "text": "Complete the project report",
+      "status": "pending",
+      "date": "12.09.25"
+    },
+    {
+      "id": "102",
+      "text": "Review the pull requests",
+      "status": "completed",
+      "date": "12.12.24"
+    },
+    {
+      "id": "103",
+      "text": "Prepare for the team meeting",
+      "status": "completed",
+      "date": "30.01.26"
+    },
+    {
+      "id": "104",
+      "text": "Update the user documentation",
+      "status": "inProgress",
+      "date": "12.08.24"
+    },
+    {
+      "id": "105",
+      "text": "Design the new landing page",
+      "status": "pending",
+      "date": "12.12.25"
+    },
+    {
+      "id": "8a40",
+      "text": "Test the latest build",
+      "status": "inProgress",
+      "date": "11.11.24"
+    }
+  ]
+}

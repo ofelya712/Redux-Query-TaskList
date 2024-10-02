@@ -1,0 +1,28 @@
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px; /* Padding around the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the items */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    padding: 10px 15px; /* Padding around each item */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin: 0 10px; /* Margin between items */
+  }
+  
+  /* Hover effect for navbar items */
+  nav a:hover {
+    background-color: #555; /* Change background on hover */
+  }
+  
+  /* Active link style */
+  nav a.active {
+    background-color: #444; /* Darker background for active link */
+  }
+  

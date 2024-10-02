@@ -1,0 +1,137 @@
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 40px;
+    background-color: #ffffff;
+
+}
+
+.taskBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #333;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 0 1 calc(25.333% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Hover effect for each task box */
+.taskBox:hover {
+    transform: translateY(-5px);
+}
+
+
+.taskBox p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.statistics {
+    width: 1300px;
+    margin: 10px 0;
+    /* Margin for spacing */
+    padding: 10px;
+    background-color: #dae8ef;
+    /* Light blue background for statistics */
+    border-radius: 8px;
+    border: 1px solid #7b8993;
+    /* Light blue border */
+}
+
+.statistics h3 {
+    margin: 0;
+    /* Remove default margin */
+    color: #79828c;
+    /* Blue color for the statistics heading */
+}
+
+.statistics p {
+    margin: 5px 0;
+    /* Margin for spacing */
+    font-weight: 500;
+    /* Semi-bold for emphasis */
+}
+
+/* Style for the AddTask component */
+.addtasK {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.addTaskForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+.addTaskForm input[type="text"],
+.addTaskForm input[type="date"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    /* Limit the width for better appearance */
+}
+
+.addTaskForm select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 320px;
+    /* Limit the width for better appearance */
+}
+
+.addTaskForm button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #8a938a;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+}
+
+.addTaskForm button:hover {
+    background-color: #b1c1b2;
+    /* Darker green on hover */
+}
+
+.deleteBtn {
+    padding: 10px;
+    background-color: #c86654;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+    margin-left: 10px;
+}
